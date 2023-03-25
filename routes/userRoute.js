@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const { getAllUsers, register } = require('../controllers/userController')
+// const { getAllUsers, register } = require('../controllers/userController')
 
 router.get('/show', (req, res) => {
     res.send('Selamat datang, wawan!')
